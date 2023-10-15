@@ -4,21 +4,53 @@ import{stdin as input, stdout as output} from 'node:process';
 import { constants } from 'node:buffer';
 const userInput = readline.createInterface({input, output});
 // Einde van boilerplate dat je even mag vergeten
-//h1
 
-let hoogte = 5;
+//h2
 
-for(let i = 1; i<=hoogte; i++){
-    let ster = '';
-    for(let j = 1; j<=i; j++){
-        ster += '*'; 
-        for(let l = 1; l<=j; l++){
-        }
-    } 
-    console.log(ster);
+for(let gem = 0; gem <= 25; gem+=0){
+    for(let i = 1; i*0 + gem<=25; i++){
+        let num = 0;
+        num += parseFloat(await userInput.question('give num: '));
+        gem = num/`${i}`;
+        console.log(gem);
+    }
 }
 
 process.exit();
+
+//h1
+/*
+let hoogte = 3;
+
+for(let i = 1; i<=hoogte; i++){
+    let ster = '';
+    let space = '';
+
+    for(let j = 1; j <= hoogte - i; j++){
+        space += ' ';
+    } 
+    for(let k = 1; k <= 2 * i - 1; k++){
+        ster += '*';
+    }
+
+    console.log(space + ster);
+}
+
+for(let i = hoogte - 1; i >= 1; i--){
+    let ster = '';
+    let space = '';
+
+    for(let j = 1; j <= hoogte - i; j++){
+        space += ' ';
+    } 
+    for(let k = 1; k <= 2 * i - 1; k++){
+        ster += '*';
+    }
+
+    console.log(space + ster);
+}
+process.exit();
+*/
 
 //m4
 /*
