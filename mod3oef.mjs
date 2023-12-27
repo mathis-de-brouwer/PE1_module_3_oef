@@ -6,7 +6,7 @@ const userInput = readline.createInterface({input, output});
 // Einde van boilerplate dat je even mag vergeten
 
 //h2
-
+/*
 for(let gem = 0; gem <= 25; gem+=0){
     for(let i = 1; i*0 + gem<=25; i++){
         let num = 0;
@@ -17,12 +17,12 @@ for(let gem = 0; gem <= 25; gem+=0){
 }
 
 process.exit();
-
+*/
 //h1
-/*
+
 let hoogte = 3;
 
-for(let i = 1; i<=hoogte; i++){
+for(let i = 1; i<= hoogte; i++){
     let ster = '';
     let space = '';
 
@@ -50,7 +50,7 @@ for(let i = hoogte - 1; i >= 1; i--){
     console.log(space + ster);
 }
 process.exit();
-*/
+
 
 //m4
 /*
